@@ -1,6 +1,6 @@
 <?php
 include "koneksi.php";
-$query = mysqli_query($koneksi, "SELECT * FROM jasaweb where id_perusahaan=" . $id) or die(mysqli_error());
+$query = mysqli_query($koneksi, "SELECT * FROM jasaweb where id_kampus=" . $id) or die(mysqli_error($koneksi));
 if ($query) {
         $posts = array();
         if (mysqli_num_rows($query)) {
