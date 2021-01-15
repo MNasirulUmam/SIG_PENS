@@ -30,7 +30,7 @@
       </div>
       <div class="modal-body">
         <h4>SISTEM INFROMASI GEOGRAFIS PEMBELAJARN KAMPUS PENS BERBASIS WEBGIS</h4>
-        <p>Program ini dibuat oleh :<br> M.Nasirul Umam <br> Sarifatus Sab'ah <br> Fina <br> untuk Tugas Worksop SIG 2020.</p>
+        <p>Politeknik Elektronika Negeri Surabaya (PENS) Terdapat Program Studi Diluar Kampus Utama (PSDKU) untuk Program studi : D3 Teknik Infomatika dan D3 Teknologi Multimedia Brocesting <br>serta Program StudiPendidikan Jarak Jauh (PJJ) PENS, untuk Program Studi: D3 PJJ Teknik Informatika dan D4 PJJ Teknik Telekomunikasi</p>
         <p>Diharapkan program ini memberikan manfaat</p>
       </div>
     </div>
