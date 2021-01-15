@@ -1,5 +1,5 @@
 <?php
-$title = "Peta Penyedia Jasa Web";
+$title = "Peta Persebaran KBM PENS";
 include_once "header.php";
 ?>
 
@@ -39,7 +39,7 @@ include_once "header.php";
             if (json_decode($data, true)) {
               $obj = json_decode($data);
               foreach ($obj->results as $item) {
-            ?>[<?php echo $item->id_perusahaan ?>, '<?php echo $item->nama_perusahaan ?>', '<?php echo $item->alamat ?>', <?php echo $item->longitude ?>, <?php echo $item->latitude ?>],
+            ?>[<?php echo $item->id_kampus ?>, '<?php echo $item->nama_kampus ?>', '<?php echo $item->alamat ?>', <?php echo $item->longitude ?>, <?php echo $item->latitude ?>],
             <?php
               }
             }
