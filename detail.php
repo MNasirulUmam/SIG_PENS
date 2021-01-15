@@ -13,8 +13,8 @@ $prov = "";
 $lat = "";
 $long = "";
 foreach ($obj->results as $item) {
-  $titles .= $item->nama_perusahaan;
-  $ids .= $item->id_perusahaan;
+  $titles .= $item->nama_kampus;
+  $ids .= $item->id_kampus;
   $kat .= $item->kategori;
   $web .= $item->website;
   $hp .= $item->no_hp;
