@@ -31,13 +31,13 @@ include_once "koneksi.php"; ?>
             ?>
                 <tr>
                   <td><?php echo $no; ?></td>
-                  <td><?php echo $item->nama_perusahaan; ?></td>
+                  <td><?php echo $item->nama_kampus; ?></td>
                   <td><?php echo $item->kategori; ?></td>
                   <td><?php echo $item->kota; ?></td>
                   <td><?php echo $item->website; ?></td>
                   <td class="ctr">
                     <div class="btn-group">
-                      <a target="_blank" href="detail.php?id=<?php echo $item->id_perusahaan; ?>" rel="tooltip" data-original-title="Lihat File" data-placement="top" class="btn btn-primary">
+                      <a target="_blank" href="detail.php?id=<?php echo $item->id_kampus; ?>" rel="tooltip" data-original-title="Lihat File" data-placement="top" class="btn btn-primary">
                         <i class="fa fa-map-marker"> </i> Detail dan Lokasi</a>&nbsp;
                     </div>
                   </td>
